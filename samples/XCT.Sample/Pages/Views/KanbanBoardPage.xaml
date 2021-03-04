@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:views="clr-namespace:Xamarin.CommunityToolkit.Views;assembly=Xamarin.CommunityToolkit"
+                xmlns:pages="clr-namespace:Xamarin.CommunityToolkit.Sample.Pages;assembly=Xamarin.CommunityToolkit.Sample"
+                x:Class="Xamarin.CommunityToolkit.Sample.Pages.Views.KanbanBoardPage">
+    <views:KanbanBoard x:Name="Board"
+                       BoardTitle="Xamarin Community Toolkit"
+                           Background="Gray"
+                           BoardTitleFontSize="16"
+                           BoardTitleTextColor="Black"></views:KanbanBoard>
+</pages:BasePage>

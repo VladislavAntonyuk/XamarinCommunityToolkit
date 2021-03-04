@@ -26,6 +26,9 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Views
 			new SectionModel(typeof(ExpanderPage), "Expander",
 				"The Expander control provides an expandable container to host any content"),
 
+			new SectionModel(typeof(KanbanBoardPage), "KanbanBoard",
+				"The KanbanBoard control with columns, card and WIP limits"),
+
 			new SectionModel(typeof(MediaElementPage), "MediaElement",
 				"MediaElement is a view for playing video and audio"),
 
